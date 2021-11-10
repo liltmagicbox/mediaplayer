@@ -550,6 +550,7 @@ my_text.configure(state='disabled')
 text_scroll.config(command = my_text.yview)
 
 #-==-==--=-=-==-
+label0.bind('<Button-1>', press_space)
 slider.bind('<ButtonRelease-1>', slider_changed)
 combo.bind("<<ComboboxSelected>>", comboselected)
 
